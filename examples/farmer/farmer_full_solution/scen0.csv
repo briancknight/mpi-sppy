@@ -1,0 +1,9 @@
+QuantityPurchased[CORN0],80.0
+QuantityPurchased[SUGAR_BEETS0],0.0
+QuantityPurchased[WHEAT0],0.0
+QuantitySubQuotaSold[CORN0],0.0
+QuantitySubQuotaSold[SUGAR_BEETS0],4000.0
+QuantitySubQuotaSold[WHEAT0],166.66666666666663
+QuantitySuperQuotaSold[CORN0],0.0
+QuantitySuperQuotaSold[SUGAR_BEETS0],0.0
+QuantitySuperQuotaSold[WHEAT0],0.0

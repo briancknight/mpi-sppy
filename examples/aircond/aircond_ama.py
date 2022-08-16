@@ -22,11 +22,12 @@ def main():
                    "write_solution": solution_files
                    }
     ama_options = amalgamator.Amalgamator_parser(options, aircond.inparser_adder)
-    
+    ama_options['num_scens'] = None
+    print(ama_options.keys()) 
     #Here, we need to change something specified by the command line
     #That's why we cannot use amalgamator.from_module
-    if ama_options['num_scens'] is not None:
-        raise RuntimeError("Do not use num_scens here, we want to solve the problem for the whole sample scenario tree")
+    #if ama_options['num_scens'] is not None:
+    #    raise RuntimeError("Do not use num_scens here, we want to solve the problem for the whole sample scenario tree")
     
     num_scens = np.prod(ama_options['branching_factors'])
     scenario_names = aircond.scenario_names_creator(num_scens,0)

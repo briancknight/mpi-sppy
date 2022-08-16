@@ -17,7 +17,7 @@ aircondstream = np.random.RandomState()
 parms = {"mudev": (float, 0.),
          "sigmadev": (float, 40.),
          "start_ups": (bool, False),
-         "StartUpCost": (float, 300.),
+         "StartUpCost": (float, 20),
          "start_seed": (int, 1134),
          "min_d": (float, 0.),
          "max_d": (float, 400.),
@@ -560,7 +560,7 @@ if __name__ == "__main__":
     save_xhat = args.save_xhat
 
     if start_ups:
-        solver_options={"mipgap":0.015,'verbose':True,}
+        solver_options={"mipgap":0.015}
     else:
         solver_options=dict()
 

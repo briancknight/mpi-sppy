@@ -3,7 +3,7 @@
 # TBD: aircond uses start-seed (but seed is allowed as an arg that is ignore).
 
 SOLVERNAME="xpress_persistent"
-
+SOLVERNAME="cplex"
 # get an xhat 
 # xhat output file name is hardwired
 # if you want to see numerical tolerance warnings emitted by FWPH, change branching factors to "20 5 4"

@@ -1,0 +1,18 @@
+
+Global optimal solution is: xstar = [1809.5238095238094, 1571.4285714285716]
+Global optimal objective value is: zstar = 24836.08221726264
+
+
+
+
+ STARTING SRP EXPERIMENT
+
+
+[    0.77] Initializing SPBase
+[    5.92] Starting EF solve
+[    6.14] Completed EF solve
+[    6.90] Initializing SPBase
+G = 7.97380952380874
+[   10.42] Starting EF solve
+[   10.65] Completed EF solve
+[   11.84] Initializing SPBase
